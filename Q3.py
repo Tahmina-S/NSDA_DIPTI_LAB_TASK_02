@@ -1,7 +1,7 @@
-print("Enter your phone number one by one digit:")
+num=int(input("Enter your phone number's total digit count: "))
 l1=[]
-for i in range(11):
-    i=int(input())
+for i in range(num):
+    i=int(input("Enter your phone number one by one digit:"))
     l1.append(i)
 print("the number is: ", l1)
 
